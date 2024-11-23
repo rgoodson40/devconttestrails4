@@ -1,4 +1,4 @@
-name: "devcontainer-with-dockercompose-test-compose-stack3"
+name: "devcontainer-with-dockercompose-test-compose-stack5"
 
 services:
   app:
