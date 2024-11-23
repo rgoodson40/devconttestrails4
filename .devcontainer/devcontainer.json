@@ -1,5 +1,5 @@
 {
-    "name": "devcontainer-with-dockercompose-test3",
+    "name": "devcontainer-with-dockercompose-test5",
     "dockerComposeFile": ["docker-compose.yml"],
     "service": "app"
 }
