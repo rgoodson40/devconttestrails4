@@ -1,0 +1,12 @@
+name: "devcontainer-with-dockercompose-test-compose-stack3"
+
+services:
+  app:
+    image: "ruby:3.2.5"
+    command: "tail -f /dev/null && apt-get updatertfd"
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    driver: bridge
